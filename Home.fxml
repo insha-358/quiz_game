@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="rootNode" prefHeight="537.0" prefWidth="684.0" style="-fx-background-color: #F6C391;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.Controller">
+   <children>
+      <Region disable="true" prefHeight="537.0" prefWidth="238.0" style="-fx-background-color: #D25380;" />
+      <Label alignment="CENTER" layoutY="24.0" prefHeight="87.0" prefWidth="238.0" style="-fx-background-color: #E08E6D;" text="Quiz Time" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="39.0" />
+         </font></Label>
+      <TextField fx:id="name" alignment="CENTER" layoutX="3.0" layoutY="190.0" prefHeight="49.0" prefWidth="232.0" promptText="player_name" />
+      <Label alignment="CENTER" layoutX="12.0" layoutY="126.0" prefHeight="49.0" prefWidth="214.0" style="-fx-background-color: #E08E6D;" text="Enter Your Name" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="start" alignment="CENTER" layoutX="61.0" layoutY="258.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="116.0" style="-fx-background-color: #E08E6D;" text="Let's Start" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="rule" alignment="CENTER" layoutX="61.0" layoutY="309.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="116.0" style="-fx-background-color: #E08E6D;" text="How to Play" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="question" alignment="CENTER" layoutX="238.0" prefHeight="402.0" prefWidth="447.0" textFill="#d25380">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font></Label>
+      <Button fx:id="next" alignment="CENTER" layoutX="150.0" layoutY="415.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" style="-fx-background-color: #E08E6D;" text="Next" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="submit" alignment="CENTER" layoutX="17.0" layoutY="415.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #E08E6D;" text="Restart" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="B" alignment="CENTER" layoutX="363.0" layoutY="465.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" style="-fx-background-color: #E08E6D;" text="B" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="A" alignment="CENTER" layoutX="252.0" layoutY="465.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" style="-fx-background-color: #E08E6D;" text="A" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="C" alignment="CENTER" layoutX="470.0" layoutY="465.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" style="-fx-background-color: #E08E6D;" text="C" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="D" alignment="CENTER" layoutX="575.0" layoutY="465.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="76.0" style="-fx-background-color: #E08E6D;" text="D" textFill="#f8f6f0">
+         <font>
+            <Font name="Bookman Old Style Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="252.0" layoutY="418.0" prefHeight="37.0" prefWidth="145.0" text="CHOOSE THE OPTION" textFill="#d25380">
+         <font>
+            <Font name="Bookman Old Style Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
